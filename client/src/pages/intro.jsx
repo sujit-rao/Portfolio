@@ -40,7 +40,7 @@ export default function intro() {
                         <p className="mb-5"> I'm <span className=' font-bold'>Sujit Rao</span>, a student passionate about development.
 
 Explore my portfolio to see my projects and skills. Let's connect!</p>
-                        <NavLink to={"/about"}> <button className="btn btn-primary">Get Started</button></NavLink>
+                        <NavLink to={"/about"}> <button className="btn ">Get Started</button></NavLink>
                     </div>
                 </div>
             </div>
