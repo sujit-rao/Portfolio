@@ -27,9 +27,9 @@ export default function about() {
               </motion.div>
               <motion.div variants={fadeIn("up", 0.2)} initial='hidden' whileInView={"show"}
                 viewport={{ once: false, amount: 0.5 }} className=' space-x-6 flex'>
-                <a href="https://www.linkedin.com/in/sujit-rao-6b3896242/"><img src="https://cdn4.iconfinder.com/data/icons/orange-social-icons/484/linkedin.png" className=' h-8 hover:scale-125 duration-300 cursor-pointer ' alt="" /></a>
-                <a href="https://www.instagram.com/sujitt_rao/"><img src="https://cdn4.iconfinder.com/data/icons/orange-social-icons/484/instagram.png" className=' border-white h-8 hover:scale-125 duration-300 cursor-pointer' alt="" /></a>
-                <a href="https://github.com/sujit-rao"><img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-jaune.png" className=' rounded-full h-8 hover:scale-125 duration-300 cursor-pointer' alt="" /></a>
+                <a href="https://www.linkedin.com/in/sujit-rao-6b3896242/"><img src="LnkdIcon.webp" className=' h-8 hover:scale-125 duration-300 cursor-pointer ' alt="" /></a>
+                <a href="https://www.instagram.com/sujitt_rao/"><img src="instaIcon.webp" className=' border-white h-8 hover:scale-125 duration-300 cursor-pointer' alt="" /></a>
+                <a href="https://github.com/sujit-rao"><img src="gitIcon.png" className=' rounded-full h-8 hover:scale-125 duration-300 cursor-pointer' alt="" /></a>
 
               </motion.div>
             </div>
