@@ -113,7 +113,7 @@ export default function portfolio() {
         </div>
       </Marquee>
 
-      <motion.div variants={fadeIn("up", 0.2)} initial='hidden' whileInView={"show"}
+      {/* <motion.div variants={fadeIn("up", 0.2)} initial='hidden' whileInView={"show"}
         viewport={{ once: false, amount: 0.5 }} className=' container mt-20 bg-base-100 p-10 rounded-t-2xl'>
         <h1>HTML</h1>
         <progress className="progress progress-warning " value="90" max="100"></progress>
@@ -134,7 +134,7 @@ export default function portfolio() {
         <br />
         <h1>SQL</h1>
         <progress className="progress progress-warning " value="60" max="100"></progress>
-      </motion.div>
+      </motion.div> */}
     </div>
 
   )
